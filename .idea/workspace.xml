@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75efbe6-eb8e-4570-8e15-5d48abac6491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Multiplication.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +14,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Basics$TempConvert.coverage" NAME="TempConvert Coverage Results" MODIFIED="1509015323697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Basics$Multiplication.coverage" NAME="Multiplication Coverage Results" MODIFIED="1509017588854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Basics$StringBuilder.coverage" NAME="StringBuilder Coverage Results" MODIFIED="1509015339947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Basics$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1509016042229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Multiplication.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Multiplication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -47,6 +58,7 @@
         <option value="$PROJECT_DIR$/TempConvert.py" />
         <option value="$PROJECT_DIR$/StringBuilder.py" />
         <option value="$PROJECT_DIR$/Sum.py" />
+        <option value="$PROJECT_DIR$/Multiplication.py" />
       </list>
     </option>
   </component>
@@ -111,7 +123,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Sum">
+  <component name="RunManager" selected="Python.Multiplication">
+    <configuration name="Multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Basics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiplication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="StringBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,16 +196,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.TempConvert" />
       <item index="1" class="java.lang.String" itemvalue="Python.StringBuilder" />
       <item index="2" class="java.lang.String" itemvalue="Python.Sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Multiplication" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.StringBuilder" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TempConvert" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Multiplication" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.StringBuilder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TempConvert" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +229,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -258,6 +291,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
